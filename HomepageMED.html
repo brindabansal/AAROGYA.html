@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>medical</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,700;1,700&display=swap" rel="stylesheet">
+    <style>
+        p{
+            box-sizing: border-box;
+            background-color: rgb(1, 32, 49);
+            padding:23px;
+            margin:0px;
+            width:auto;
+            height:45px;
+            display: flex;
+            align-items:center ;
+            align-content: flex-end;
+            flex-direction: row-reverse;
+
+        }
+        body{
+            background-image: url('images/Desktop\ -\ 2.png');
+            background-size: 1520px 765px;
+            background-color: rgb(1, 32, 49);
+            background-repeat: no-repeat;
+            color:white;
+            font-family:'poppins', sans-serif;
+        }
+
+        nav{margin:100px;
+            display: flex;
+            justify-content: space-around;
+            align-items:center;
+            height: 70px;
+            background-color: rgb(184, 209, 212);
+            padding:0px;
+            margin:0px 0px 0px 0px;
+            position: -webkit-sticky;
+            position:sticky;
+        }
+        nav ul{
+            display:flex;
+            justify-content:baseline;
+        }
+
+
+        nav ul li{
+            list-style: none;
+            margin: 180px 18px ;
+        }
+
+        nav ul li a{
+            text-decoration:none;
+            color:rgb(9, 4, 80);
+
+        }
+        nav ul li a:hover {
+            color:rgb(230, 221, 238);
+            font-size: 1.02rem;
+            
+        }
+        @keyframes example{
+            from{margin:-1000px;}
+            to{margin:10px;}
+        }
+        
+        .wui{
+            margin: 3px 0;
+            animation-name: example;
+            animation-duration: 3s;
+
+        }
+        
+        .left{
+            width: 200%;
+            height: 40%;
+            position:static;
+            left: 100px;
+            right: 5px;
+            
+        }
+        .right{
+            margin:50;
+            left:10px;
+            right:5px;
+        }
+        .firstsection{
+            display:flex;
+            justify-content: space-around;
+            margin: 120px -18px -165px 0px;
+           
+            padding-bottom: -2000px;
+
+        }
+
+        .firstsection > div{
+           width: 40%;
+           font-size: 25px;
+           right: 1120px;
+           font-style: italic;
+           align-items:end;
+
+        }
+        .leftsection{
+            margin:130px 80px;
+            color:rgb(8, 162, 182);
+            
+
+
+        }
+        .rightsection{
+            width: 90px;
+            height: 40px;
+            position:relative;
+            left: -130px;
+            right:400px;
+            margin: 322px 0;
+
+        }
+        .girl{
+            width: 455px;
+        }
+
+        .rightsection img{
+            height:auto;
+            position: absolute;
+            left:15%;
+            bottom:0;
+            transform:translateX(-20%);
+            transition: bottom 1s,left 2s;
+
+        }
+
+        
+        .rightsection:hover .girl{
+            left:0%;
+            
+        } 
+        .purple{
+            color:rgb(6, 48, 119);
+        }
+        #element{
+            color:rgb(6, 48, 119);
+           
+
+        }
+        .resources{
+            color: aliceblue;
+            list-style:disc;
+            letter-spacing: 1px;
+            align-items: center;
+            padding-left: 553px;
+            
+        
+        }
+        .resources li a:hover{
+            color:rgb(53, 163, 199);
+            font-size: small;
+        }
+        .heading_resources{
+            font-size: 50px;
+            font-weight: bolder;
+            padding-right: 650px;
+            padding-top: 100px;
+
+        }
+        .content{
+            padding-right: 407px;
+            font-size: 25px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        .resources a{
+            color: aliceblue;
+        }
+        .heading_resources:hover{
+            font-size: 55px;
+            color: rgb(110, 207, 222);
+            letter-spacing: 1px;
+            transition-duration: 1.5s;
+        }
+        .dep{
+            padding-right:550px;
+            
+        }
+        #depr{
+            font-size: 54px;
+            font-weight: bolder;
+            color: rgb(186, 227, 240);
+            margin-top: -380px;
+            letter-spacing: -1px;
+            margin-right:60px;
+
+        
+        
+        }
+        #depr:hover{
+          font-size: 55px;
+            color: rgb(110, 207, 222);
+            letter-spacing: 1px;
+            transition-duration: 1.5s;
+        }
+        .support-content{
+            display: flex;
+            font-size: 25px;
+            margin-top: -2px;
+            color: rgb(110, 207, 222);
+            margin-right:200px;
+            align-items: flex-start;
+            letter-spacing:0.3px;
+        }
+        
+       
+        .btn{
+            background-color:rgb(44, 172, 192);
+            color:rgb(6, 48, 119); 
+            margin-bottom: -500px;
+         padding-left: 680px;
+         
+         box-sizing: 300px 300px 300px;
+        
+        
+        }
+        .wui{
+            width:100px;
+        }
+   
+       
+
+
+        
+
+
+
+
+    </style>
+</head>
+
+<body >
+ 
+    <p style="color: aliceblue; ">Emergency Contact no. (9425113413)</p>
+    <header>
+        <nav>
+            <div class="wui" ><img src="c:\Users\lenovo\Downloads\hii.jpg" class="left"></div>
+            <div>
+            <ul>
+                <li style="font-weight: bold; font-size: larger; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;"><a href="#">Home  </a></li>
+                <li style="font-weight: bold; font-size: larger; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;"><a href="C:\Users\lenovo\Desktop\.vscode\new project\iNEEDsupport.html">I Need Support </a></li>
+                <li style="font-weight: bold; font-size: larger; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;"><a href="C:\Users\lenovo\Desktop\.vscode\new project\ourHealthServices.html">Our Health Services </a></li>
+                <li style="font-weight: bold; font-size: larger; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;"><a href="C:\Users\lenovo\Desktop\.vscode\new project\ContactUS.html"> Contact Us </a></li>
+
+            </ul>
+        </div>            
+        </nav>
+    </header>
+    <main>
+
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi, I am  <span class="purple">Dr.Mukesh ,</span> 
+                <div>and I am here to support </div>
+                <div>YOU</div>
+                <span id="element"></span>
+
+            </div>
+            <div class="rightsection">
+                <img src="images/Group 59.png" class="girl">
+                
+         
+            </div>
+            
+
+            <hr>
+
+        </section>
+        
+    </main>
+           
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Your loved ones,', 'Your health, ','and Your Life.'],
+          typeSpeed: 130,
+        });
+      </script>
+      <p class="heading_resources">Resources</p>
+      <p class="content">Find Additional support materials through these resources</p>
+      <div>
+        <ul class="resources" >
+            <li ><a href="#">LGBTQ survivors of sexual violence</a></li><br>
+            <li><a href="#">Warning signs for teens</a></li><br>
+            <li><a href="#">About consent</a></li><br>
+            <li><a href="#">Staying safe</a></li><br>
+        </ul>
+      </div>
+      <img src="images/11672049_13285-removebg-preview.png" alt="dep"></div>
+      <p class="depress" id="depr">Are you a TEENAGER and DEPRESSED?</p>
+      <p class="support-content">if you or someone you know needs support,<br>there is help.
+        you are not alone. Below you <br>can find link of website on <br> which you can find support.</p>
+       <a class="btn btn-primary" href="https://snehaindia.org/new/" role="button">Click Here to go to the new Website</a>
+    
+</body>
+</html>
